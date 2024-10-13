@@ -1,0 +1,85 @@
+header {
+    background-image: url('images/bgpic.png') ;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', monospace;
+    color:black;
+    margin:0;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: white;
+      }
+      
+      .topnav a {
+        float: left;
+        color: pink;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      .topnav a:hover {
+        background-color: pink;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: pink;
+        color: white;
+      }
+      img{
+        float:left;
+    }
+    div{
+        font-size: large;
+        text-align: left;
+        background-color: white ;
+        line-height: 1; 
+        border:10px; 
+        margin-top:20px;
+        margin-right:25px;
+    }
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-image:url('images/bgpic2.png');
+        color: black;
+      }
+      .container {
+        display: flex;
+        border: 2px solid pink;
+    }
+
+    .box1 {
+        flex: 1;
+        margin: 15px;
+        padding: 40px;
+        border: 2px solid pink;
+        background-image: url;
+    }
+    .box2 {
+        flex: 1;
+        margin: 15px;
+        padding: 40px;
+        border: 2px solid pink;
+        background-image: url;
+    }
+    .box3{
+        flex: 1;
+        margin: 15px;
+        padding: 40px;
+        border: 2px solid pink;
+        background-image: url;
+    }
+    .relatedsites{
+        margin: 15px;
+        padding: 40px;
+        border: 2px solid pink;
+        background-image: url(images/bgpic2.png);
+        color: pink;
+
+}
