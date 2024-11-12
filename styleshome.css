@@ -22,12 +22,12 @@ header {
         font-size: 20px;
       }
       
-      .topnav a:hover {
+      .topnav a:hover <!-- LG 7.1 (hover) --> {
         background-color: pink;
         color: black;
       }
       
-      .topnav a.active {
+      .topnav a.active <!-- LG 7.1 (active) --> {
         background-color: pink;
         color: white;
       }
