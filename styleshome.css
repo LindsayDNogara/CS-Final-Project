@@ -33,7 +33,13 @@ header {
       }
       img{
         float:left;
+   transition-property: transform;
+        transition-duration: 3s;
+        transition-timing-function: ease-in-out;
     }
+        img:hover{
+            transform: rotate(-30deg);
+        }
     div{
         font-size: large;
         text-align: left;
