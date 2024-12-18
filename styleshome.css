@@ -1,39 +1,39 @@
 header {
-    background-image: url('images/bgpic.png') ;
-    background-size: cover;
-    padding: 20px;
-    text-align: center;
-    font-size: 15px;
-    font-family: 'Courier New', monospace;
-    color:black;
-    margin:0;
+  background-image: url('images/bgpic.png') ;
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Courier New', monospace;
+  color:black;
+  margin:0;
+  }
+  .topnav {
+      overflow: hidden;
+      background-color: white;
     }
-    .topnav {
-        overflow: hidden;
-        background-color: white;
-      }
-      
-      .topnav a {
-        float: left;
-        color: pink;
-        text-align: center;
-        padding: 20px;
-        text-decoration: none;
-        font-size: 20px;
-      }
-      
-      .topnav a:hover <!-- LG 7.1 (hover) --> {
-        background-color: pink;
-        color: black;
-      }
-      
-      .topnav a.active <!-- LG 7.1 (active) --> {
-        background-color: pink;
-        color: white;
-      }
-      img{
-        float:left;
-   transition-property: transform;
+    
+    .topnav a {
+      float: left;
+      color: pink;
+      text-align: center;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    
+    .topnav a:hover  {
+      background-color: pink;
+      color: black;
+    }
+    
+    .topnav a.active{
+      background-color: pink;
+      color: white;
+    }
+    img{
+      float:left;
+      transition-property: transform;
         transition-duration: 3s;
         transition-timing-function: ease-in-out;
     }
@@ -49,6 +49,7 @@ header {
         margin-top:20px;
         margin-right:25px;
     }
+    
     footer {
         text-align: center;
         padding: 3px;
@@ -86,6 +87,52 @@ header {
         padding: 40px;
         border: 2px solid pink;
         background-image: url(images/bgpic2.png);
-        color: pink;
+        color: black;
 
+}
+.sprite {
+	background: url('images/sprite.png') no-repeat -61px -143px;
+	width: 300px;
+	height: 300px;
+}
+.sprite2 {
+	background: url('images/sprite.png') no-repeat -362px -140px;
+	width: 300px;
+	height: 300px;
+}
+.sprite3 {
+	background: url('images/sprite.png') no-repeat -679px -168px;
+	width: 300px;
+	height: 300px;
+}
+section {
+  background-color: white;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+aside {
+  background-color: white;
+  padding: 10px;
+  margin: 15px;
+}
+article {
+  background-image:url('images/bgpic2.png');
+  padding: 10px;
+  margin: 15px;
+}
+animate{
+  background: url('images/animate.png') no-repeat 0 0;
+  width: 100px;
+  height: 100px;
+  animation:varName 1s steps(6) infinite;
+}
+@keyframes varName{
+  from{background-position-x:0px;}
+  to{background-position-x:-1100px;}
+}
+[class|="top"] {
+  background:pink;
 }
