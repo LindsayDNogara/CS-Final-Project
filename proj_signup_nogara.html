@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>She Means No - Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { background-color: pink; margin: 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>She Means NO</h1>
+  </header>
+  <div class="topnav">
+    <a href="home.html">Home</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="hotlines.html">Hotlines</a>
+    <a href="what_is_sa.html">What is SA?</a>
+    <a class="active" href="proj_signup_nogara.html">Sign Up</a>
+    <a href="proj_profile_nogara.html">Profile</a>
+  </div>
+
+  <div class="logo"> 
+    <img src="images/logo.png" style="height:200px; width:200px;">
+    <article>
+        <p>Every woman has the right to be seen, heard and understood. She Means No advocates for women rights by raising awareness on sexual assault. When she says no, SHE MEANS NO</p>
+    </article>
+</div>
+  <form id="signupForm">
+    
+    <h1>She Means No Sign Up Page</h1>
+
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname" required><br><br>
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname" required><br><br>
+
+    <h3>Sex:</h3>
+    <input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female" required>
+    <label for="female">Female</label><br>
+    <input type="radio" id="prefer-not" name="gender" value="Prefer not to say" required>
+    <label for="prefer-not-to-say">Prefer not to say</label><br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="reason">Why you're supporting our campaign:</label><br>
+    <textarea id="reason" name="reason" required></textarea><br><br>
+
+    <input type="submit" value="Sign Up">
+  </form>
+  <footer> 
+    <p> She Means NO is not a government organization</p>
+    <p> Author: lindsay D. Nogara</p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+header {
+    background-image: url('images/bgpic.png') ;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', monospace;
+    color:black;
+    margin:0;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: white;
+      }
+      
+      .topnav a {
+        float: left;
+        color: pink;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      .topnav a:hover  {
+        background-color: pink;
+        color: black;
+      }
+      
+      .topnav a.active{
+        background-color: pink;
+        color: white;
+      }
+      img{
+        float:left;
+        transition-property: transform;
+          transition-duration: 3s;
+          transition-timing-function: ease-in-out;
+      }
+          img:hover{
+              transform: rotate(-30deg);
+          }
+      div{
+          font-size: large;
+          text-align: left;
+          background-color: white ;
+          line-height: 1; 
+          border:10px; 
+          margin-top:20px;
+          margin-right:25px;
+      }
+      
+      footer {
+          text-align: center;
+          padding: 3px;
+          background-image:url('images/bgpic2.png');
+          color: black;
+        }
+        form {
+          background-color: #fff0f6; 
+          max-width: 500px;
+          margin: 40px auto;
+          padding: 30px 40px;
+          border-radius: 15px;
+          box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3); 
+          font-family: Arial, sans-serif;
+          color: #333;
+        }
+        
+        form h1 {
+          text-align: center;
+          margin-bottom: 25px;
+          font-weight: 700;
+          color: #d81e5b; 
+        }
+        
+        form p {
+          font-size: 1rem;
+          margin-bottom: 20px;
+          line-height: 1.4;
+          text-align: center;
+          color: #666;
+        }
+        
+        form label {
+          display: block;
+          margin-bottom: 8px;
+          font-weight: 600;
+          color: #b2224e;
+        }
+        
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"],
+        form input[type="password"] {
+          width: 100%;
+          padding: 10px 12px;
+          margin-bottom: 20px;
+          border: 2px solid #d881a8;
+          border-radius: 8px;
+          font-size: 1rem;
+          transition: border-color 0.3s ease;
+        }
+        
+        form input[type="text"]:focus,
+        form input[type="email"]:focus,
+        form input[type="tel"]:focus,
+        form input[type="password"]:focus
+       { 
+          border-color: #d81e5b;
+          outline: none;
+        }
+        
+        form input[type="radio"] {
+          margin-right: 8px;
+          transform: scale(1.1);
+          vertical-align: middle;
+        }
+        
+        form label[for^="male"],
+        form label[for^="female"],
+        form label[for^="prefer-not-to-say"] {
+          display: inline-block;
+          margin-right: 20px;
+          font-weight: normal;
+          color: #b2224e;
+        }
+        
+        form input[type="submit"],
+        form input[type="reset"] {
+          background-color: #d81e5b;
+          border: none;
+          color: white;
+          padding: 12px 30px;
+          margin-right: 15px;
+          font-size: 1rem;
+          border-radius: 12px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+        
+        form input[type="submit"]:hover,
+        form input[type="reset"]:hover {
+          background-color: #b2224e;
+        }
+        
+        form input[type="submit"]:focus,
+        form input[type="reset"]:focus {
+          outline: 2px solid #ff4081;
+          outline-offset: 2px;
+        }
+
+        form h3 {
+          text-align: left;
+          margin-bottom: 25px;
+          font-weight: 700;
+          color: #b2224e; 
+        }
+
+        form textarea {
+          width: 100%;
+          padding: 10px 12px;
+          margin-bottom: 20px;
+          border: 2px solid #d881a8;
+          border-radius: 8px;
+          font-size: 1rem;
+          font-family: Arial, sans-serif;
+          resize: vertical; 
+          transition: border-color 0.3s ease;
+        }
+        
+        form textarea:focus {
+          border-color: #d81e5b;
+          outline: none;
+        }
+        form input[type="password"]:focus {
+          border-color: #d81e5b;
+          outline: none;
+        }
+        label.required::after {
+          content: " *";
+          color: red;
+        }
+
+
+img {
+  display: block;
+  margin: 20px auto;
+  height: 200px;
+  width: 200px;
+  transition: transform 3s ease-in-out;
+}
+
+img:hover {
+  transform: rotate(-30deg);
+}
+
+.profile-container {
+  max-width: 500px;
+  background-color: #fff0f6;
+  margin: 40px auto;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
+}
+
+.profile-container h1 {
+  color: #d81e5b;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile-container p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.profile-container strong {
+  color: #b2224e;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-image:url('images/bgpic2.png');
+  color: black;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color:#fff0f6 ;
+  border: 10px solid#d81e5b;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.logo article {
+  flex: 1;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo article {
+    flex: none;
+  }
+}
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-left: 8px;
+  font-weight: bold;
+  display: inline-block;
+  min-width: 60px;
+}
